@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(14, 173, 179) ;
+font-size: 20px;
+    height: 6000px;
+    
+    background-size: cover;
+
+background-image: url(../img/1-10.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.perants{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.7;
+    border: 2px solid black;
+    z-index: 20;
+    
+}
+
+ul{
+    list-style-type: none; 
+    float: right;
+    margin-right: 60px;
+    padding: auto;
+
+}
+li{
+    display: inline;
+margin-right: 50px;
+}
+a{
+    text-decoration: none ;
+    color: white;
+}
+.containr{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/IMG-20220822-WA0066.jpg);
+    height: 100vh;
+   
+    background-size: cover;
+    
+    
+    
+    
+}
+/*.cttt{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/1-10.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+.over{
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+    
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 55%;
+    opacity: 0.9;
+    border: 2px solid red;
+    height: 50%;
+    
+
+}
+.cont{
+    
+    margin: auto;
+    
+}
+.coachs{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    position: absolute;
+
+    
+}
+.div16{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    color:rgb(177, 173, 173) ;
+    
+}
+.div17 {
+    margin-left: 5%;
+    width: 28%;
+    box-shadow: -15px 15px 20px black;
+    float: left;
+    height: 440px;
+    position: relative;
+    background-color: rgb(177, 173, 173);
+    z-index: 2;
+}
+.div17::after{
+    content: "";
+    position: absolute;
+    width:0%;
+    height: 0%;
+    top: 0%;
+    left: 0;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div17:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+.div18 {
+    margin-left: 50px;
+    width: 28%;
+    box-shadow: -15px 15px 20px black;
+    float: left;
+    height: 440px;
+    position: relative;
+    background-color: rgb(177, 173, 173);
+}
+.div18::after{
+    content: "";
+    position: absolute;
+    width:0%;
+    height: 0%;
+    top: 0%;
+    left: 0;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div18:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+
+
+.div19 {
+    margin-left: 50px;
+width: 28%;
+   box-shadow: -15px 15px 20px black;
+   float: left;
+   height: 440px;
+   position: relative;
+   background-color: rgb(177, 173, 173);
+}
+.div19::after{
+    content: "";
+    position: absolute;
+    width:0%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div19:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+
+
+.coach-img{
+    width: 90%;
+    height: 70%;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.button{
+    padding: 10px 0;
+    width: 170px;
+    background-color: black;
+    border-radius: 0%;
+    border: none;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border: 3px solid red;
+}
+.button:hover{
+    opacity: 0.7 ;
+    
+}
+.h3{
+    border: 4px solid red;
+    outline-offset: 3px ;
+    outline: 4px solid red;
+    margin: 2%;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    padding: 6px;
+    
+
+}
+.h1{
+    color: red;
+    display:inline-block;
+    padding: 2px;
+    font-size: 30px;
+}
+h1{
+    display: inline;
+}
+.coach-info{
+    color: white;
+    margin-top: -15px;
+}
+.contt{
+    
+    margin: auto;
+    
+    
+}
+.tool{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: -18%;
+
+    
+
+    
+} 
+.div20{
+margin-top: 500px;
+    color:rgb(177, 173, 173) ;
+    margin-bottom: 50px;
+    
+}
+.div21 {
+    margin-left: 5%;
+    width: 28%;
+    box-shadow: -15px 15px 20px black;
+    float: left;
+    height: 440px;
+    position: relative;
+    background-color: rgb(177, 173, 173);
+}
+.div21::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 0%;
+    top: 0%;
+    right: 0;
+    
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div21:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+.div22 {
+    margin-left: 50px;
+    width: 28%;
+    box-shadow: -15px 15px 20px black;
+    float: left;
+    height: 440px;
+    position: relative;
+    background-color: rgb(177, 173, 173);
+}
+.div22::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 0%;
+    top: 0%;
+    left: 0;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div22:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+
+
+.div23 {
+    margin-left: 50px;
+width: 28%;
+   box-shadow: -15px 15px 20px black;
+   float: left;
+   height: 440px;
+   position: relative;
+   background-color: rgb(177, 173, 173);
+}
+.div23::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 0%;
+    top: 0%;
+    left: 0;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div23:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+.h4info{
+font-size: 20px;
+}
+
+.div24 {
+    margin-left: 65px;
+    width: 28%;
+   box-shadow: -15px 15px 20px black;
+   float: left;
+   height: 440px;
+   position: relative;
+   top: 100px;
+   background-color: rgb(177, 173, 173);
+}
+.div24::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 0%;
+    top: 0%;
+    left: 0;
+    background-color: rgb(59, 53, 53);
+    opacity: 0;
+}
+.div24:hover::after{
+    width:100%;
+    height:100%;  
+    opacity: 0.5;
+    transition:1.5s ;
+}
+.icon-1{
+    position: absolute;
+    margin-top: 5%;
+    top: 0%;
+    margin-left: 5%;
+    
+
+    
+}
+.coach-img a{
+    display: block;
+    color: antiquewhite;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    
+}
+
+.coach-img a i{
+    line-height: 40px;
+}
+.sss{
+    color: black;
+    display: block;
+    font-size: 30px;
+}
+.div25{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+    height: 500px;
+    background-image: url(../img//photo_2022-12-25_23-00-37.jpg);
+    background-size: cover;
+}
+
+.div26{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+font-size: 30px;
+
+text-align: left;
+}
+.div30{
+    
+    height: 60vh;
+    background-color: black;
+    color: beige;
+    width: 100%;
+    opacity: 0.8;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-bottom: 0%;
+}
+.icon2{
+    font-size: 40px;
+    padding-top: 2%;
+    margin-left: 5%;
+    text-align: left;
+}
+.div30 a {
+    display:block;
+    color: antiquewhite;
+
+    
+      
+}
+.h11{
+    text-align: center;
+    padding-top: 3%;
+}
+.divi{
+    display: inline;
+    margin-left: 10px;
+}
+
